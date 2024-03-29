@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="stylecontatti.css">
+ <title>TeleTube</title>
+ <link rel="icon" type="image/png" sizes="32x32" href="img/logoteletubenero.png">
+ <meta name="keywords" content="HTML,Televideo,YouTube,Programmazione,Streaming,SocialMedia">
+ <meta name="description" content="Guida alla programmazione di YouTube">
+ <meta name="author" content="Giulia Laureti">
+</head>
+
+<body>
+  <nav>
+   <div class="logo">
+    <a href="index.html"> <img src="img/iconateletube1.png" alt="logo"> </a>
+   </div>
+   <div id="navbar">
+    <a id="navbaritems" href="index.html">Home</a>
+    <a id="navbaritems" href="gallery.html">Gallery</a>
+    <a id="navbaritems" href="news.html">News</a>
+    <a id="navbaritems" href="contatti.html">Contatti</a>
+   </div>
+  </nav>
+<header>
+  <div>
+    <h1 id="contacttitle">Canali e <span id="cont">Contatti</span></h1>
+  </div>
+</header>
+<section class="container">
+  <form id="contact" name="DatiUtenti" action="paginarisposta.html" method="post">
+    <h3>Contattaci</h3>
+    <h4>Contattaci riempiendo il form, ti ricontatteremo entro 24 ore.</h4>
+    <fieldset>
+      <input type="text" name="nome" id="nome" placeholder="Nome" required/>
+    </fieldset>
+    <fieldset>
+      <input type="text" name="cognome" id="cognome" placeholder="Cognome" required/>
+    </fieldset>
+    <fieldset>
+      <input type="text" name="email" id="email" placeholder="E-mail" required/>
+    </fieldset>
+    <fieldset>
+      <input type="tel" name="telefono" id="telefono" placeholder="Numero di telefono"  required/>
+    </fieldset>
+    <fieldset>
+      <textarea name="messaggio" id="messaggio" placeholder="Il tuo messaggio..." required></textarea>
+    </fieldset>
+    <fieldset>
+      <input type="submit" id="submit" name="submit" value="Invia" />
+    </fieldset>
+  </form>
+</section>
+
+<section class="canaliyoutube">
+  <div id="listacanali"> <h3>Lista dei canali You<span id="tube2">Tube</span> della settimana: </h3>
+    <ul>
+    <li><a href='https://www.youtube.com/channel/UCdufkvMrmyR1TMhDG8PhsJw'>HdBlog</a></li>
+    <li><a href='https://www.youtube.com/channel/UC5yXB_ThsufRJYMRlzIGoeQ'>Andrea Galeazzi</a></li>
+    <li><a href='https://www.youtube.com/user/PensareMacYT'>Manuel Agostini</a></li>
+    <li><a href='https://www.youtube.com/channel/UCg-RnRrxsogxKgj7341ewEQ'>FixFit</a></li>
+    <li><a href='https://www.youtube.com/channel/UCZOpI8x3kh9DuMT51B7qKXg'>Dance Fitness</a></li>
+    <li><a href='https://www.youtube.com/channel/UCxw7S4bUc-oXa2nDks3uSgA'>Calciatori Brutti</a></li>
+    <li><a href='https://www.youtubekids.com/channel/UCPgZjzVn8NqGpsb36ZZ6-6w?hl=it'>Tecnologia DuePuntoZero</a></li>
+    <li><a href='https://www.youtubekids.com/channel/UCSH8CjSBSMnD1gYvTOyjREw?hl=it'>Masha e Orso</a></li>
+    <li><a href='https://www.youtubekids.com/channel/UCnk-oI7dWpz80XERbVORP5w?hl=it'>Come realizzare Tutos</a></li>
+    <li><a href='https://www.youtube.com/channel/UCjMIGhRExEB-Q6ZyEr1gBeA'>Nicoló Balini</a></li>
+    <li><a href='https://www.youtube.com/channel/UCS5PaGnSnFUnrjSc80XRnqw'>Marcello Ascani</a></li>
+    <li><a href='https://www.youtube.com/channel/UCLcmVlp615VdMEjEyP5ms7g'>Stefano Tiozzo</a></li>
+    <li><a href='https://www.youtube.com/channel/UC57y8n08hzTwGeoHPOV_rpA'>CookAroundTv</a></li>
+    <li><a href='https://www.youtube.com/user/benedetta1972'>Fatto in Casa da Benedetta</a></li>
+    <li><a href='https://www.youtube.com/user/gioggio94bello'>Giovanni Fois</a></li>
+  </ul>
+ </div>
+</section>
+
+<footer id="footer"> <div id="footertext"> <small> ©2020 TeleTube Designed by Giulia Laureti </small> </div> </footer>
+
+</body>
+
+</html>
